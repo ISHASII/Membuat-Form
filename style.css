@@ -1,0 +1,64 @@
+body{
+    background-color: lightseagreen;
+}
+
+form{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightblue;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form > p{
+    text-align: center;
+    font-size: 25px;
+}
+
+div > label{
+    font-style: italic;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+form label{
+    width: 100px;
+    display: inline-block;
+}
+
+
+textarea{
+	width: 50%;
+	padding: 5px;
+	margin-top: 5px;
+    display: block;
+}
+
+input[type="submit"]{
+    border-radius: 10px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover{
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+input[type="text"]:valid, input[type="password"]:valid{
+    background-color:whitesmoke;
+}
+
+input[type="text"]:invalid, input[type="password"]:invalid{
+    background-color:rgb(255, 96, 96);
+}

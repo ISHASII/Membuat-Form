@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Membuat Form</title>
+    </head>
+
+    <body>
+        <form action="#">
+
+            <p>FORM ANGGOTA KOMUNITAS</p>
+
+            <div>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama"
+                    placeholder="Masukkan Nama" required>
+            </div>
+    
+            <div>
+                <label for="password">password</label>
+                <input type="password" id="password"
+                    placeholder="Masukkan Password" required>
+            </div>
+
+            <div>
+                <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+                <label for="laki-laki">Laki-Laki</label>
+            </div>
+              
+            <div>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+                <label for="perempuan">Perempuan</label>
+            </div>
+
+            <div>
+                <label for="biodata">Biodata</label>
+                <textarea id="biodata" name="biodata" required></textarea><br>
+            </div>
+
+            <input type="submit" value="Login">
+    
+        </form>
+    </body>
+</html>
